@@ -100,9 +100,11 @@ The program should help the student:
 
 A typical student may dedicate:
 
-- limited monthly time to portfolio maintenance;
-- 30–60 minutes to understand a promising company;
-- 1–2 additional hours when a potentially exceptional opportunity deserves deeper work.
+- 5–15 minutes for a Rapid Screen;
+- 30–60 minutes for Business Understanding;
+- an additional 1–2 hours for deeper Opportunity Analysis when justified;
+- event-driven ongoing monitoring;
+- approximately one hour for an ordinary monthly portfolio review when no exceptional event requires deeper work.
 
 ---
 
@@ -249,15 +251,7 @@ The final decision remains human.
 
 ## 4.3 AI Verification
 
-Material investment conclusions should require:
-
-- date checks;
-- primary-source verification;
-- source citation;
-- clear separation of fact and inference;
-- explicit uncertainty;
-- critical-number verification;
-- contradiction checks.
+Material investment conclusions require verification under [Research Standards](../05_research/data_and_research_standards.md#24-ai-hallucination-control). That document owns primary-source requirements, citations, freshness, critical-number checks, fact/inference separation, uncertainty, and contradiction handling. AI does not lower the evidence standard.
 
 ---
 
@@ -306,13 +300,13 @@ Students should understand the role and main risks of:
 - secondary offerings;
 - derivatives.
 
-These do not all require operational depth.
+These do not all require operational depth. Cash and bonds may be valid Core portfolio components under [Methodology](../02_methodology/investment_methodology.md#31-default-structure-core--satellite). Their inclusion does not expand the teaching depth authorized here.
 
 ---
 
 # 6. Core Program Architecture
 
-The canonical core curriculum consists of six courses.
+The canonical core curriculum consists of six courses. The following summaries define architecture and intended outcomes. [Curriculum files](../01_curriculum/) own course teaching, [Methodology](../02_methodology/investment_methodology.md) owns analytical rules, and [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns artifact schemas and assessment criteria.
 
 ---
 
@@ -393,29 +387,9 @@ The student defines:
 - first execution;
 - automation.
 
-## ETF Framework
+## ETF and Broker Frameworks
 
-Use a practical 6-point check:
-
-1. index;
-2. holdings;
-3. cost;
-4. size and liquidity;
-5. domicile / structure;
-6. accumulating vs distributing.
-
-## Broker Framework
-
-Evaluate:
-
-- regulation;
-- custody;
-- fees;
-- FX;
-- market access;
-- transferability;
-- reporting;
-- user experience.
+Students learn to use the canonical [ETF 6-Point Check](../03_templates/templates_and_rubrics.md#8-template-101b--etf-6-point-check) and [Broker Comparison](../03_templates/templates_and_rubrics.md#7-template-101a--broker-comparison). Their checklist schemas are maintained in Templates, not here.
 
 ## AI Role
 
@@ -542,8 +516,8 @@ Use AI to:
 Decision:
 
 - PASS;
-- WATCHLIST;
-- DEEPER RESEARCH.
+- WATCH;
+- RESEARCH MORE.
 
 ---
 
@@ -564,7 +538,7 @@ Decision:
 - peer valuation;
 - expectations;
 - scenario analysis;
-- fair-value ranges;
+- reasonable valuation ranges;
 - margin of safety;
 - value traps.
 
@@ -620,6 +594,8 @@ Includes:
 
 **Quality + Mispricing + Catalyst + Setup**
 
+This teaching summary describes analytical dimensions, not mandatory gates. Follow [Methodology](../02_methodology/investment_methodology.md#22-good-company--good-investment): catalysts are useful but optional, and a favorable technical setup is not required for a valid thesis.
+
 ## Dislocation
 
 Ask:
@@ -664,11 +640,11 @@ Use:
 - trend;
 - support / resistance;
 - volume;
-- 50DMA;
-- 200DMA;
+- 50-day moving average (50DMA);
+- 200-day moving average (200DMA);
 - RSI.
 
-Technical analysis supports timing. It does not replace the thesis.
+Technical analysis supports timing and risk context. It does not replace the thesis or require a favorable setup for the thesis to be valid.
 
 ## Entry
 
@@ -738,18 +714,19 @@ Every position should fit one state:
 Potential reasons to sell:
 
 - thesis broken;
-- moat deteriorates;
+- competitive advantage deteriorates;
 - financial quality deteriorates;
 - structural industry change;
 - valuation becomes extreme;
-- opportunity cost becomes too high;
-- position becomes too large.
+- opportunity cost becomes too high.
+
+Excessive position size alone maps to TRIM under [Methodology action semantics](../02_methodology/investment_methodology.md#14-buy--hold--add--trim--sell). SELL follows the existing Methodology sell conditions.
 
 Do not sell only because price moved.
 
 ## Monthly Routine
 
-Target approximately one hour when no exceptional event requires deeper work.
+Use the ordinary monthly review budget in [section 2.2](#22-time-constraint). The canonical form is the [Monthly Portfolio Review](../03_templates/templates_and_rubrics.md#16-template-501c--monthly-portfolio-review); the overview below describes course coverage.
 
 ### Portfolio Health
 - allocation;
@@ -796,7 +773,7 @@ Use AI to:
 
 The canonical investment methodology lives in:
 
-`docs/02_methodology/investment_methodology.md`
+[Investment Methodology](../02_methodology/investment_methodology.md).
 
 It governs:
 
@@ -810,8 +787,10 @@ It governs:
 - risk;
 - position sizing;
 - buy / hold / add / trim / sell;
-- AI-assisted research;
-- source hierarchy.
+- analytical use of AI;
+- Core / Satellite logic, market expectations, technical context, entry, and monitoring principles.
+
+[Research Standards](../05_research/data_and_research_standards.md) is the sole operational authority for source hierarchy, primary-source requirements, citations, freshness, data verification, and AI research verification.
 
 Course files should teach and apply that methodology rather than invent separate frameworks.
 
@@ -819,88 +798,13 @@ Course files should teach and apply that methodology rather than invent separate
 
 # 8. Standard Course Structure
 
-Each course should generally use:
-
-## 1. Problem
-What real decision must the student make?
-
-## 2. Concept
-What principle is required?
-
-## 3. Framework
-What repeatable process can be used?
-
-## 4. Example
-Apply it to a realistic situation.
-
-## 5. AI Workflow
-How can AI reduce research time?
-
-## 6. Verification
-What must the student verify?
-
-## 7. Common Mistakes
-What should be avoided?
-
-## 8. Human Decision
-What remains the student's responsibility?
-
-## 9. Action
-What should the student execute?
-
-## 10. Deliverable
-What proves the skill was learned?
+Retain the high-level learning progression: understand the problem, learn the concept, apply it, verify evidence, and make a human decision. Detailed course and lesson structure is owned by [Pedagogy & Slide Design](../04_pedagogy/pedagogy_and_slide_design.md#6-course-design-standard).
 
 ---
 
 # 9. Content Design Rules
 
-## One Main Idea per Slide
-
-Avoid turning slides into textbook pages.
-
-## Prefer Visual Frameworks
-
-Use:
-
-- diagrams;
-- decision trees;
-- checklists;
-- scorecards;
-- comparisons;
-- charts;
-- business maps;
-- supply-chain maps;
-- real cases.
-
-## Fewer Metrics, Better Decisions
-
-Every metric should answer:
-
-> What decision becomes better because I know this?
-
-## Real Financial Language
-
-Use standard financial terminology, initially explained clearly.
-
-## No False Precision
-
-Use ranges and scenarios for:
-
-- fair value;
-- forecasts;
-- probabilities;
-- risk/reward.
-
-## Risk First
-
-Every investment example should consider:
-
-- what can go wrong;
-- downside;
-- horizon;
-- concentration;
-- thesis invalidation.
+Optimize decision quality per unit of time. Detailed lesson sequencing, slide rules, exercises, and teaching presentation standards are owned by [Pedagogy & Slide Design](../04_pedagogy/pedagogy_and_slide_design.md). Investment definitions follow Methodology; evidence standards follow Research; forms and scoring follow Templates.
 
 ---
 
@@ -985,45 +889,23 @@ Defines **how we think as investors**.
 
 ## `docs/03_templates/`
 
-Future:
-
-- templates;
-- student deliverables;
-- rubrics.
+[Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns canonical forms, checklist schemas, deliverable fields, scoring rubrics, and completion thresholds.
 
 ## `docs/04_pedagogy/`
 
-Future:
-
-- lesson design;
-- slide design;
-- class structure;
-- teaching standards.
+[Pedagogy & Slide Design](../04_pedagogy/pedagogy_and_slide_design.md) owns teaching method, course and lesson structure, slides, exercises, and assessment delivery.
 
 ## `docs/05_research/`
 
-Future:
-
-- source hierarchy;
-- data standards;
-- freshness rules;
-- citation standards.
+[Data & Research Standards](../05_research/data_and_research_standards.md) owns operational sourcing, primary-source requirements, citations, freshness, financial-data definitions, period consistency, estimates, contradiction handling, and AI research verification.
 
 ## `docs/06_compliance/`
 
-Future:
-
-- educational boundaries;
-- risk disclosures;
-- legal/compliance standards.
+[Legal, Risk & Compliance](../06_compliance/legal_risk_compliance.md) owns educational/advice boundaries, disclosures, and compliance guardrails.
 
 ## `docs/07_product/`
 
-Future:
-
-- product requirements;
-- user journeys;
-- platform features.
+[Product Requirements](../07_product/product_requirements.md) owns platform behavior, MVP scope, user journeys, progress tracking, and application features.
 
 ## `docs/90_technical/`
 
@@ -1049,10 +931,10 @@ When documents conflict:
 
 - this document governs project vision, audience, scope, and curriculum architecture;
 - `investment_methodology.md` governs investment logic;
-- curriculum files govern course-level content;
-- pedagogy documentation governs teaching format;
-- templates govern deliverables;
-- research standards govern data and sourcing;
+- curriculum files govern course teaching, learning outcomes, lesson sequencing, examples, and which artifacts are required;
+- Pedagogy governs teaching method, lesson structure, slides, exercises, and assessment delivery, not canonical scoring criteria;
+- Templates governs canonical forms, checklist schemas, deliverable fields, scoring rubrics, and completion thresholds;
+- Research Standards governs operational data, sourcing, citations, freshness, and AI verification;
 - compliance documentation governs legal boundaries;
 - product requirements govern platform behavior;
 - technical documentation governs implementation.

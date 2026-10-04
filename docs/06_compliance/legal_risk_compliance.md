@@ -75,6 +75,8 @@ Deliverables such as:
 
 should be framed as student-created educational work.
 
+Canonical artifact fields and rubrics are defined in [Templates & Rubrics](../03_templates/templates_and_rubrics.md). Evidence verification follows [Research Standards](../05_research/data_and_research_standards.md). These forms do not establish legal suitability or authorize personalized advice.
+
 The student remains responsible for:
 
 - verifying information;
@@ -231,7 +233,7 @@ Risk should be integrated into the decision framework.
 
 # 14. Leverage and Derivatives
 
-These are not part of the core program.
+Leveraged investing or trading strategies and derivatives strategies are outside the core program. Business operating leverage may still be taught as a normal business-analysis concept. Contextual education about derivatives remains permitted within the [Source of Truth scope](../00_project/source_of_truth.md#52-context-only-asset-classes). This does not authorize deeper leverage or derivatives curriculum.
 
 If mentioned for context:
 

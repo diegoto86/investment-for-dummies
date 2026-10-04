@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 501 — Manage Your Portfolio
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Know when to buy, hold, add, trim or sell without watching the market all day.**
@@ -130,10 +132,10 @@ The course should teach principles, not universal percentages.
 
 # 6. Lesson 5 — Buy / Hold / Add / Trim / Sell
 
-Every position should fit one decision state.
+Use the [Methodology portfolio actions](../02_methodology/investment_methodology.md#14-buy--hold--add--trim--sell). The explanations below are teaching summaries of those canonical semantics.
 
 ## BUY
-New thesis, attractive expected return.
+Portfolio action after entry, sizing, and risk considerations are accepted. BUY CANDIDATE remains a research conclusion until then.
 
 ## HOLD
 Thesis intact, valuation acceptable, no better action required.
@@ -159,8 +161,9 @@ Potential reasons:
 - structural industry change;
 - valuation becomes extreme;
 - catalyst is realized and expected return collapses;
-- position becomes excessively large;
 - a materially better risk-adjusted opportunity exists.
+
+Excessive position size alone maps to TRIM. SELL is reserved for the existing Methodology sell conditions.
 
 ## Not sufficient by itself
 
@@ -207,16 +210,18 @@ After results, answer:
 
 ## Decision
 
-- thesis improving;
-- thesis unchanged;
-- thesis weakening;
-- thesis broken.
+- IMPROVING;
+- UNCHANGED;
+- DETERIORATING;
+- BROKEN.
+
+These are thesis statuses under [Methodology](../02_methodology/investment_methodology.md#stage-8--decide), not research dispositions or portfolio actions.
 
 ---
 
 # 10. Lesson 9 — Monthly Investment Routine
 
-Target: approximately one hour when the portfolio does not require exceptional action.
+Use the [Source of Truth ordinary monthly review budget](../00_project/source_of_truth.md#22-time-constraint). The four-part allocation below is a teaching example for that budget, not a separate required form.
 
 ## 15 minutes — Portfolio health
 
@@ -372,7 +377,7 @@ Provide:
 > - assumptions that are now invalid.
 >
 > Classify the thesis as:
-> THESIS IMPROVING / UNCHANGED / WATCH / DETERIORATING / BROKEN.
+> IMPROVING / UNCHANGED / DETERIORATING / BROKEN.
 >
 > Cite evidence for each material conclusion.
 
@@ -459,39 +464,9 @@ The investor must still decide:
 
 # 22. Deliverable — Portfolio Operating System
 
-## Portfolio objective
+Assemble the required Portfolio Operating System using the [Personal Portfolio Architecture](../03_templates/templates_and_rubrics.md#9-template-101c--personal-portfolio-architecture) and existing canonical [501A–501D portfolio artifacts](../03_templates/templates_and_rubrics.md#14-template-501a--position-thesis-card).
 
-## Benchmark
-
-## Core / Satellite allocation
-
-## Cash target
-
-## Position limits
-
-## Sector limits
-
-## Buy rules
-
-## Add rules
-
-## Trim rules
-
-## Sell rules
-
-## Thesis update process
-
-## Monthly review
-
-## Watchlist
-
-## Alerts
-
-## AI workflows
-
-- earnings update;
-- portfolio review;
-- opportunity prioritization.
+Use them to maintain thesis records, earnings updates, monthly reviews, and action checks. Apply Methodology's investment rules and monitoring principles. Templates owns the fields and rubrics; this course teaches how the artifacts operate together.
 
 ---
 
@@ -512,6 +487,8 @@ Human judgment controls:
 ---
 
 # 24. Graduation test
+
+Apply the [Course 501 graduation rubric](../03_templates/templates_and_rubrics.md#501--manage-your-portfolio) and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric).
 
 The student passes when they can manage the portfolio without needing to watch prices every day and can answer:
 

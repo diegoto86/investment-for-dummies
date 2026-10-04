@@ -3,7 +3,7 @@
 **Status:** Canonical  
 **Version:** 1.0  
 **Project:** Invest Smarter with AI  
-**Purpose:** Define the investment philosophy, decision framework, research standards, portfolio logic, and AI-assisted workflow that must remain consistent across the entire program.
+**Purpose:** Define the investment philosophy, decision framework, portfolio logic, and analytical use of AI that must remain consistent across the entire program.
 
 ---
 
@@ -13,6 +13,8 @@ This document defines **how we think as investors**.
 
 The curriculum explains what students learn in each course.  
 This methodology defines the common investment logic used across those courses.
+
+The [Source of Truth](../00_project/source_of_truth.md) governs audience, program scope, and curriculum architecture. [Research Standards](../05_research/data_and_research_standards.md) governs operational sourcing, citations, freshness, data verification, and AI research verification. [Templates & Rubrics](../03_templates/templates_and_rubrics.md) governs forms and assessment criteria.
 
 The target student is not a professional equity analyst or full-time trader.
 
@@ -59,9 +61,11 @@ A high-quality company can be a poor investment if expectations are already too 
 
 A mediocre company can occasionally be mispriced, but low valuation alone is not enough.
 
-The investment decision must combine:
+The investment decision considers these analytical dimensions:
 
 **Business Quality + Expectations + Valuation + Dislocation + Catalyst + Risk**
+
+These dimensions are not mandatory gates. A catalyst is useful but not mandatory, and a favorable technical setup is not required for a valid investment thesis. Constructs such as Quality + Valuation/Mispricing + Catalyst + Setup organize analysis rather than require every element.
 
 ---
 
@@ -105,13 +109,15 @@ Fair value is not a single exact number.
 
 Use:
 
-- valuation ranges;
+- reasonable valuation ranges;
 - scenario ranges;
 - bear / base / bull cases;
 - reasonable assumptions;
 - explicit uncertainty.
 
 Avoid pretending that a spreadsheet can eliminate uncertainty.
+
+Use "reasonable valuation range" as the preferred term. "Fair value" is shorthand for an uncertain estimate, not an exact intrinsic value.
 
 ---
 
@@ -137,6 +143,8 @@ Possible instruments:
 - bonds where appropriate;
 - strategic cash allocation.
 
+Cash and bonds may be valid Core components. Their inclusion does not expand the teaching depth authorized by the [Source of Truth](../00_project/source_of_truth.md#5-program-scope).
+
 ### Satellite
 
 Designed for:
@@ -158,6 +166,8 @@ Allocation depends on:
 - portfolio size;
 - conviction;
 - ability to monitor positions.
+
+The [Investor Profile](../03_templates/templates_and_rubrics.md#6-template-000--investor-profile) supplies horizon, liquidity needs, risk capacity, risk tolerance, investable capital, and personal constraints. These inputs constrain portfolio construction, acceptable investment risk, and position sizing. Sections 12 and 13 apply those constraints without universal percentages.
 
 ---
 
@@ -308,16 +318,19 @@ Identify:
 
 ## Stage 8 — Decide
 
-Possible outputs:
+Research dispositions:
 
-- PASS;
-- WATCH;
-- RESEARCH MORE;
-- BUY CANDIDATE;
-- HOLD;
-- ADD;
-- TRIM;
-- SELL.
+**PASS:** Do not pursue the opportunity further on current evidence.
+
+**WATCH:** Keep the opportunity under observation while entry or evidence is insufficient.
+
+**RESEARCH MORE:** Resolve material questions before reaching an investment conclusion.
+
+**BUY CANDIDATE:** A research conclusion indicating that the opportunity may meet investment requirements but has not yet become an executed portfolio action.
+
+Portfolio/investment actions are **BUY / HOLD / ADD / TRIM / SELL**, governed by section 14. Research dispositions are not trade instructions. A watchlist is a tool containing research candidates, not a separate disposition.
+
+Thesis status is **IMPROVING / UNCHANGED / DETERIORATING / BROKEN**. It describes how evidence changes an existing thesis, independently of a research disposition or portfolio action. WATCH is not a thesis status.
 
 ---
 
@@ -330,6 +343,14 @@ The goal is not complete due diligence.
 The goal is to build a sufficiently accurate first map in approximately 30–60 minutes.
 
 Use seven blocks.
+
+1. Business Model
+2. Industry
+3. Value Chain / Supply Chain
+4. Economics
+5. Competitive Position
+6. Key Industry KPIs
+7. Risk
 
 ---
 
@@ -374,6 +395,12 @@ Core question:
 
 ## 5.3 Supply Chain / Value Chain
 
+**Value chain:** Where economic value is created and captured across the ecosystem.
+
+**Supply chain:** The operational flow of inputs, suppliers, production, distribution, and customers.
+
+The two may be analyzed together, but they are not identical concepts. The following map shows the operational supply chain.
+
 Map:
 
 **Inputs → Suppliers → Production → Distribution → Customer**
@@ -416,6 +443,8 @@ Core question:
 ---
 
 ## 5.5 Competitive Position
+
+Competitive advantage is the formal term. "Moat" is shorthand for a durable competitive advantage with an economic consequence.
 
 Potential sources of advantage:
 
@@ -490,6 +519,12 @@ Examples:
 Rule:
 
 > Learn the 3–5 metrics that explain the industry. Do not memorize every available metric.
+
+---
+
+## 5.7 Risk
+
+Identify the main vulnerabilities and what could invalidate the business understanding using the existing [Risk Framework](#13-risk-framework). This is the seventh block, not a separate risk methodology.
 
 ---
 
@@ -634,6 +669,14 @@ This is especially useful for:
 
 ---
 
+## 7.6 Margin of Safety
+
+Margin of safety is the valuation cushion between the current price and a reasonable conservative valuation range, considered together with uncertainty, downside risk, and the quality of assumptions.
+
+It is a buffer, not a guarantee. Greater uncertainty generally requires a larger cushion. No universal fixed percentage is prescribed.
+
+---
+
 # 8. Dislocation Framework
 
 A dislocation exists when:
@@ -685,7 +728,7 @@ A dislocation is attractive only when:
 
 # 9. Catalyst Framework
 
-A catalyst is not mandatory, but it improves timing and expected value.
+A catalyst is useful but not mandatory for an investment. Analysis may explicitly conclude: "No identifiable catalyst is required." Do not invent a catalyst to complete a framework or form.
 
 Potential catalysts:
 
@@ -715,6 +758,8 @@ For each catalyst define:
 
 Technical analysis is secondary.
 
+A favorable technical setup is not required for an investment thesis to be valid. Apply technical context only when it improves timing or risk understanding.
+
 It is used to improve:
 
 - entry timing;
@@ -726,8 +771,8 @@ Minimum framework:
 - trend;
 - support / resistance;
 - volume;
-- 50-day moving average;
-- 200-day moving average;
+- 50-day moving average (50DMA);
+- 200-day moving average (200DMA);
 - RSI.
 
 Priority setups:
@@ -773,7 +818,7 @@ Averaging down without thesis review is prohibited.
 
 No universal percentage should be presented as correct.
 
-Sizing depends on:
+The Investor Profile constraints in section 3.1 apply before selecting a position size. Within those constraints, sizing depends on:
 
 - conviction;
 - uncertainty;
@@ -798,6 +843,8 @@ Define:
 ---
 
 # 13. Risk Framework
+
+Apply the Investor Profile constraints in section 3.1 when deciding whether risk is acceptable.
 
 Every investment must answer:
 
@@ -827,6 +874,8 @@ Risk categories:
 # 14. Buy / Hold / Add / Trim / Sell
 
 ## BUY
+
+BUY is a portfolio action after entry, sizing, and risk considerations are accepted. It is distinct from the BUY CANDIDATE research conclusion.
 
 Use when:
 
@@ -861,7 +910,11 @@ Use when:
 - risk rises;
 - portfolio concentration becomes excessive.
 
+Excessive position size by itself maps to TRIM.
+
 ## SELL
+
+SELL is reserved for the conditions below, rather than excessive size alone.
 
 Use when:
 
@@ -923,7 +976,7 @@ Review around:
 
 ## 15.3 Monthly Review
 
-A practical monthly routine:
+Use the [Monthly Portfolio Review](../03_templates/templates_and_rubrics.md#16-template-501c--monthly-portfolio-review) to implement the monitoring principles below within the ordinary review budget in the Source of Truth. This overview describes monitoring priorities, not a separate form schema.
 
 ### Portfolio Health
 - allocation;
@@ -1009,98 +1062,49 @@ Prefer:
 
 # 19. Standard AI Research Prompt Structure
 
-Every serious AI workflow should contain:
-
-## Context
-What are we evaluating?
-
-## Role
-What analytical job should AI perform?
-
-## Sources
-Which documents may be used?
-
-## Task
-What specific questions must be answered?
-
-## Framework
-How should the answer be organized?
-
-## Constraints
-What should AI not do?
-
-## Evidence
-What must be supported by sources?
-
-## Uncertainty
-What remains unknown?
+Use the [Universal AI Research Prompt Template](../03_templates/templates_and_rubrics.md#18-universal-ai-research-prompt-template) for the canonical prompt structure. Select the analytical task and framework from this methodology. Apply [Research Standards](../05_research/data_and_research_standards.md#23-ai-research-standard) to evidence and verification.
 
 ---
 
 # 20. AI Verification Rules
 
-For material investment decisions:
+High-quality evidence is required for material investment conclusions. AI accelerates research without lowering the evidence standard or replacing human judgment.
 
-1. Verify critical numbers.
-2. Check source date.
-3. Prefer primary sources.
-4. Separate facts from inference.
-5. Require uncertainty to be explicit.
-6. Cross-check contradictory evidence.
-7. Never rely on a single AI answer.
-8. Preserve source context.
-9. Avoid invented precision.
-10. Final judgment remains human.
+The operational verification requirements are defined in [Research Standards](../05_research/data_and_research_standards.md#24-ai-hallucination-control). Apply them before acting, including primary-source verification, citations, critical-number checks, and explicit uncertainty.
 
 ---
 
 # 21. Source Hierarchy
 
-Preferred order:
-
-1. regulatory filings;
-2. investor relations;
-3. earnings releases;
-4. earnings calls / transcripts;
-5. exchange or index provider;
-6. institutional-quality data providers;
-7. reputable financial media;
-8. secondary aggregators;
-9. community / social sources for idea generation only.
-
-Social sources may generate a question.
-
-They should not settle a material fact.
+Use the canonical [Research source hierarchy](../05_research/data_and_research_standards.md#3-source-hierarchy) and [primary-source requirements](../05_research/data_and_research_standards.md#4-primary-source-first). Social sources may generate questions or context, but must not settle a material fact. No independent source ranking is maintained here.
 
 ---
 
 # 22. Time-Efficiency Principle
 
-The methodology should reduce research time through staged depth.
+The methodology should reduce research time through staged depth. The [Source of Truth time constraint](../00_project/source_of_truth.md#22-time-constraint) governs stage budgets, additional opportunity-analysis time, and ordinary monthly review time.
 
 ## Level 1 — Rapid Screen
-5–15 minutes.
 
 Question:
 
 > Is this worth investigating?
 
 ## Level 2 — Business Understanding
-30–60 minutes.
 
 Question:
 
 > Do I understand how this business and industry work?
 
 ## Level 3 — Opportunity Analysis
-1–2 hours when justified.
+This is additional research time when justified, not the total time for all stages.
 
 Question:
 
 > Is the valuation/dislocation attractive enough to invest?
 
 ## Level 4 — Ongoing Monitoring
-Event-driven.
+Event-driven, alongside scheduled portfolio reviews.
 
 Question:
 
@@ -1122,6 +1126,8 @@ Escalate when:
 - uncertainty is resolvable;
 - catalyst is identifiable;
 - position could become material.
+
+An identifiable catalyst is not required to deepen otherwise justified research.
 
 Stop research when:
 
@@ -1174,46 +1180,9 @@ The core program does not promote:
 
 # 26. Methodology Output
 
-For every serious individual-stock idea, the ideal output is:
+For every serious individual-stock idea, analysis should connect business understanding, economics, quality, expectations, valuation, dislocation, catalysts when useful, risk, entry, and sizing to a justified decision.
 
-## Business
-How does it make money?
-
-## Industry
-How does the industry work?
-
-## Value Chain
-Where does the company sit?
-
-## Economics
-What drives revenue, margins and cash?
-
-## Quality
-What is durable?
-
-## Expectations
-What does the market appear to expect?
-
-## Valuation
-What range appears reasonable?
-
-## Dislocation
-Why might the market be wrong?
-
-## Catalyst
-What could change expectations?
-
-## Risk
-What could invalidate the thesis?
-
-## Entry
-What price zone is attractive?
-
-## Sizing
-How much capital is appropriate?
-
-## Decision
-PASS / WATCH / RESEARCH MORE / BUY / HOLD / ADD / TRIM / SELL.
+Use the canonical [Investment Decision Memo](../03_templates/templates_and_rubrics.md#22-investment-decision-memo--compact-master-template) to capture that analysis. Its fields are owned by Templates; decision meanings are owned by sections 4 and 14 of this methodology.
 
 ---
 

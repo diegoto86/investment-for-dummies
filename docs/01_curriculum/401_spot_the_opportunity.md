@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 401 — Spot the Opportunity
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Find dislocations, catalysts and attractive entry points without becoming a full-time trader.**
@@ -64,7 +66,7 @@ A reason expectations may change.
 ### Setup
 A sufficiently attractive entry context.
 
-Not every opportunity needs all four equally, but the framework forces disciplined thinking.
+These are analytical dimensions, not mandatory gates, under [Methodology](../02_methodology/investment_methodology.md#22-good-company--good-investment). A catalyst is optional and a favorable technical setup is not required for a valid thesis.
 
 ---
 
@@ -123,7 +125,7 @@ A dislocation is attractive only if the economic damage is smaller than the pric
 
 # 5. Lesson 3 — Catalyst
 
-A catalyst is not always required, but it can accelerate value realization.
+A catalyst is useful but not mandatory. A strong analysis may conclude: "No identifiable catalyst is required." Do not invent a catalyst to satisfy the framework or rubric.
 
 Possible catalysts:
 
@@ -189,7 +191,7 @@ This often reveals whether the problem is company-specific or industry-wide.
 
 # 8. Lesson 6 — Technical minimum viable framework
 
-Use technical analysis only as a timing and risk-context tool.
+Use technical analysis only as a secondary timing and risk-context tool under [Methodology](../02_methodology/investment_methodology.md#10-technical-context). A favorable technical setup is not required for a valid investment thesis.
 
 ## Trend
 
@@ -205,11 +207,11 @@ Identify areas where price previously reacted.
 
 Can help assess whether a move has unusual participation.
 
-## 50-day moving average
+## 50-day moving average (50DMA)
 
 Intermediate trend reference.
 
-## 200-day moving average
+## 200-day moving average (200DMA)
 
 Longer-term trend reference.
 
@@ -315,7 +317,9 @@ Price alone is not always thesis invalidation.
 
 ---
 
-# 14. Lesson 12 — Buy / Watch / Pass
+# 14. Lesson 12 — Research dispositions
+
+Use [Methodology's research dispositions](../02_methodology/investment_methodology.md#stage-8--decide): PASS, WATCH, RESEARCH MORE, and BUY CANDIDATE. The Opportunity Card uses the dispositions relevant to this stage. BUY CANDIDATE is a research conclusion, not an executed BUY action.
 
 ## BUY CANDIDATE
 
@@ -398,7 +402,7 @@ Before investing, answer:
 - Is valuation attractive?
 - What caused the dislocation?
 - Is the issue temporary or structural?
-- What catalyst could close the gap?
+- Is a catalyst useful, or is no identifiable catalyst required?
 - What would invalidate the thesis?
 - How much capital should I risk?
 
@@ -419,57 +423,20 @@ Before investing, answer:
 
 # 21. Deliverable — Opportunity Card
 
-## Company
-Ticker.
-
-## Current price
-
-## Why it is on the radar
-Event / dislocation.
-
-## Business quality
-Short summary.
-
-## Valuation
-Current vs reasonable range.
-
-## What changed
-Fundamental change.
-
-## Temporary vs structural
-Assessment.
-
-## Catalyst
-What could improve perception or economics?
-
-## Technical context
-Trend / key levels / setup.
-
-## Entry zone
-
-## No-chase level
-
-## Invalidation
-
-## Position size
-Initial / maximum.
-
-## Decision
-
-- BUY CANDIDATE
-- WATCH
-- PASS
+Produce the canonical [Opportunity Card](../03_templates/templates_and_rubrics.md#13-template-401--opportunity-card). Explain what changed, temporary versus structural impact, valuation, risk, entry, and sizing. Preserve Research's evidence categories. Assess catalysts when useful; technical fields apply only when they improve the decision. Templates owns the fields.
 
 ---
 
 # 22. Graduation test
+
+Apply the [Opportunity Card rubric](../03_templates/templates_and_rubrics.md#opportunity-card-rubric), [Course 401 graduation rubric](../03_templates/templates_and_rubrics.md#401--spot-the-opportunity), and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric). A justified no-catalyst conclusion is acceptable.
 
 The student passes when they can explain:
 
 - why the stock is down or mispriced;
 - why the issue may be temporary;
 - why the business remains worth owning;
-- what could close the valuation gap;
+- what could close the valuation gap, or why no identifiable catalyst is required;
 - what would prove the thesis wrong;
 - how much capital should be committed.
 

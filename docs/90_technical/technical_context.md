@@ -15,7 +15,7 @@
 
 This document tells Codex and human contributors how to work inside the repository without mixing engineering decisions with curriculum decisions.
 
-The repository is the canonical master.
+The repository is the canonical master. [Source of Truth](../00_project/source_of_truth.md) owns project authority and curriculum scope; [Product Requirements](../07_product/product_requirements.md) owns product and MVP priorities. Engineering implements those decisions.
 
 ---
 
@@ -35,6 +35,7 @@ docs/
 ├─ 02_methodology/
 │  └─ investment_methodology.md
 ├─ 03_templates/
+│  └─ templates_and_rubrics.md
 ├─ 04_pedagogy/
 │  └─ pedagogy_and_slide_design.md
 ├─ 05_research/
@@ -57,13 +58,16 @@ docs/
 Before implementing a change, determine which canonical document governs it.
 
 ## Vision / Audience / Scope
-`docs/00_project/source_of_truth.md`
+[Source of Truth](../00_project/source_of_truth.md)
 
 ## Course Content
 `docs/01_curriculum/`
 
 ## Investment Logic
 `docs/02_methodology/investment_methodology.md`
+
+## Forms / Rubrics
+[Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns schemas, fields, scoring, and completion thresholds.
 
 ## Teaching / Slides
 `docs/04_pedagogy/pedagogy_and_slide_design.md`
@@ -75,7 +79,7 @@ Before implementing a change, determine which canonical document governs it.
 `docs/06_compliance/legal_risk_compliance.md`
 
 ## Product Behavior
-`docs/07_product/product_requirements.md`
+[Product Requirements](../07_product/product_requirements.md)
 
 ## Engineering
 `docs/90_technical/`

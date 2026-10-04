@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 101 — Build Your Investment System
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Create a portfolio strategy you can actually maintain.**
@@ -123,6 +125,8 @@ Possible examples:
 - broad bond exposure;
 - strategic cash allocation.
 
+These possible Core components do not expand the teaching depth authorized by the Source of Truth. Methodology governs portfolio logic.
+
 ## Satellite
 
 The part used for:
@@ -198,7 +202,7 @@ Ask:
 
 The student should not compare 50 variables.
 
-Use the **ETF 6-Point Check**.
+Learn to use the canonical [ETF 6-Point Check](../03_templates/templates_and_rubrics.md#8-template-101b--etf-6-point-check). The headings below explain the form; Templates owns its checklist schema.
 
 ## 1. Index
 
@@ -269,7 +273,7 @@ If you cannot explain what drives the ETF's return, you should not buy it.
 
 # 9. Lesson 8 — Broker selection
 
-The broker is infrastructure, not the strategy.
+The broker is infrastructure, not the strategy. Use the canonical [Broker Comparison](../03_templates/templates_and_rubrics.md#7-template-101a--broker-comparison); the criteria below are teaching explanations and examples, not a separate form schema.
 
 ## Compare
 
@@ -447,61 +451,20 @@ Do not automate:
 
 # 16. Deliverable — Investment System #001
 
-## Part A — Broker Decision
+Build the required Investment System #001 using the canonical components:
 
-Compare 2–3 brokers.
+- [101A Broker Comparison](../03_templates/templates_and_rubrics.md#7-template-101a--broker-comparison): compare 2–3 brokers and explain the trade-off accepted.
+- [101B ETF 6-Point Check](../03_templates/templates_and_rubrics.md#8-template-101b--etf-6-point-check): apply the check when choosing an ETF.
+- [101C Personal Portfolio Architecture](../03_templates/templates_and_rubrics.md#9-template-101c--personal-portfolio-architecture): explain how the allocation and limits fit the Investor Profile.
+- [101D First Investment Record](../03_templates/templates_and_rubrics.md#10-template-101d--first-investment-record): document the investment and its portfolio role.
 
-Include:
-
-- regulation;
-- custody;
-- commissions;
-- FX;
-- markets;
-- transfer policy;
-- reason for final choice.
-
----
-
-## Part B — Portfolio Architecture
-
-Define:
-
-- objective;
-- horizon;
-- cash target;
-- Core allocation;
-- Satellite allocation;
-- contribution frequency;
-- maximum individual-position size;
-- maximum sector exposure.
-
----
-
-## Part C — First Investment
-
-Document:
-
-- asset;
-- ticker / ISIN;
-- ETF or stock;
-- price;
-- quantity;
-- order type;
-- capital invested;
-- objective;
-- horizon;
-- reason;
-- main risk.
-
-Execution may be:
-
-- real;
-- paper trade if the student is not ready.
+Execution may be real or a paper trade if the student is not ready. Templates owns the fields; the course teaches comparison, allocation, and execution.
 
 ---
 
 # 17. Graduation test
+
+Apply the [Course 101 graduation rubric](../03_templates/templates_and_rubrics.md#101--build-your-investment-system) and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric). The questions below demonstrate the required outcomes.
 
 The student should be able to answer:
 

@@ -1,8 +1,8 @@
-# Pstack Context — Proyecto "Mentoría de Inversión"
+# Pstack Context — Proyecto "Invest Smarter with AI"
 
 ## Objetivo
 
-Este archivo describe la configuración actual de Pstack usada en Codex para que cualquier asistente, agente o generador de prompts dentro del proyecto **Mentoría de Inversión** entienda qué capacidades están disponibles, cómo deben invocarse y cuándo conviene usarlas.
+Este archivo describe la configuración actual de Pstack usada en Codex para que cualquier asistente, agente o generador de prompts dentro del proyecto **Invest Smarter with AI** entienda qué capacidades están disponibles, cómo deben invocarse y cuándo conviene usarlas.
 
 ---
 
@@ -173,11 +173,11 @@ No usar múltiples agentes ni High reasoning para tareas triviales.
 
 ---
 
-## Estrategia recomendada para "Mentoría de Inversión"
+## Estrategia recomendada para "Invest Smarter with AI"
 
 El proyecto busca construir una plataforma web para enseñar inversión en bolsa.
 
-Pstack debe usarse como capa de ingeniería y revisión, no como requisito para cada cambio.
+Pstack debe usarse como capa de ingeniería y revisión, no como requisito para cada cambio. [Product Requirements](../07_product/product_requirements.md) define las prioridades de producto y MVP; [Source of Truth](../00_project/source_of_truth.md) define el alcance y la arquitectura curricular. Pstack implementa esas decisiones y no las redefine.
 
 Flujo recomendado:
 
@@ -330,7 +330,7 @@ When generating prompts for Codex:
 
 ## Project-specific priorities
 
-For the Mentoría de Inversión platform, optimize for:
+The following implementation summary follows [Product Requirements](../07_product/product_requirements.md). Product owns product/MVP priorities; Pstack implements them. For the Invest Smarter with AI platform, optimize for:
 
 - simple MVP
 - clean UX

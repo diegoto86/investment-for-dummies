@@ -13,6 +13,8 @@ Build a simple learning platform that helps busy professionals and entrepreneurs
 
 The platform should transform curriculum into action.
 
+Audience, scope, course architecture, and expansion rules follow the [Source of Truth](../00_project/source_of_truth.md). [Curriculum](../01_curriculum/) owns course outcomes and required artifacts.
+
 The core experience is:
 
 **Learn → Apply → Produce Deliverable → Track Progress**
@@ -83,7 +85,7 @@ Use:
 
 **Program → Course → Module/Lesson → Exercise → Deliverable**
 
-Core courses:
+The course list below mirrors the architecture owned by the [Source of Truth](../00_project/source_of_truth.md#6-core-program-architecture):
 
 1. 000 — Investing Foundations
 2. 101 — Build Your Investment System
@@ -114,6 +116,8 @@ Avoid clutter.
 
 # 7. Lesson Experience
 
+Lesson presentation follows [Pedagogy](../04_pedagogy/pedagogy_and_slide_design.md#7-lesson-design-standard). The platform should support that teaching model rather than define a competing lesson sequence.
+
 Each lesson should support:
 
 - clear objective;
@@ -139,6 +143,8 @@ Minimum MVP:
 - deliverable status;
 - last visited lesson.
 
+Course completion is based on the course's required learning outcomes and artifact criteria, not content consumption alone. [Templates & Rubrics](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric) governs rubric requirements and completion thresholds; [Pedagogy](../04_pedagogy/pedagogy_and_slide_design.md#20-graduation-principle) governs their teaching use. These semantics apply to existing progress tracking.
+
 Useful later:
 
 - skill map;
@@ -160,6 +166,8 @@ The platform should support completion of:
 - Valuation & Expectations Card;
 - Opportunity Card;
 - Portfolio Operating System.
+
+Use [Templates & Rubrics](../03_templates/templates_and_rubrics.md) for the canonical artifact fields and rubrics. The platform presents those forms rather than maintaining independent schemas.
 
 MVP options:
 
@@ -183,6 +191,8 @@ MVP can provide:
 - example inputs;
 - example outputs;
 - verification checklists.
+
+Prompt forms follow [Templates](../03_templates/templates_and_rubrics.md#18-universal-ai-research-prompt-template); verification and source checklists follow [Research Standards](../05_research/data_and_research_standards.md).
 
 The MVP does not need to host its own LLM.
 
@@ -356,7 +366,7 @@ Provide a simple way to collect:
 - usefulness;
 - demand for new courses.
 
-This feedback determines whether advanced content should be created.
+This feedback informs evaluation under the [Source of Truth content-addition rules](../00_project/source_of_truth.md#15-content-addition-rule). Feedback does not independently authorize new courses.
 
 ---
 

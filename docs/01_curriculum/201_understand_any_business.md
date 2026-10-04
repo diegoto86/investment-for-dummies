@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 201 — Understand Any Business
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Learn how a company makes money, how its industry works and where it sits in the value chain.**
@@ -19,8 +21,8 @@ The goal is not institutional-grade due diligence.
 The goal is to build a sufficiently accurate first view of a company in approximately 30–60 minutes and decide whether it deserves:
 
 - PASS;
-- WATCHLIST;
-- DEEPER RESEARCH.
+- WATCH;
+- RESEARCH MORE.
 
 AI is used as a research accelerator, but the student must retain judgment and verify material facts.
 
@@ -43,17 +45,17 @@ By the end of the course, the student should be able to:
 
 ---
 
-# 2. The 30–60 Minute Business Understanding Framework
+# 2. The Business Understanding Framework
 
-Use seven blocks:
+Use the seven blocks defined by [Methodology's Rapid Business Understanding](../02_methodology/investment_methodology.md#5-rapid-business-understanding), within the [Source of Truth time budget](../00_project/source_of_truth.md#22-time-constraint):
 
-1. Business model
+1. Business Model
 2. Industry
-3. Value chain / supply chain
+3. Value Chain / Supply Chain
 4. Economics
-5. Competitive position
-6. Key metrics
-7. Risks
+5. Competitive Position
+6. Key Industry KPIs
+7. Risk
 
 ## Output
 
@@ -169,11 +171,11 @@ This is a core skill.
 
 ## Objective
 
-Understand where value is created and where risk accumulates.
+Understand where value is created and where risk accumulates. [Methodology](../02_methodology/investment_methodology.md#53-supply-chain--value-chain) distinguishes the value chain, where economic value is created and captured, from the supply chain, the operational flow shown below.
 
 ## Map
 
-**Inputs → Production → Distribution → Customer**
+**Inputs → Suppliers → Production → Distribution → Customer**
 
 Then identify:
 
@@ -314,6 +316,8 @@ But:
 
 # 11. Lesson 8 — Competitive advantage
 
+Competitive advantage is the formal term; "moat" is shorthand as defined in [Methodology](../02_methodology/investment_methodology.md#55-competitive-position).
+
 Potential sources:
 
 - brand;
@@ -429,20 +433,7 @@ Identify the 3–5 that explain the economics of the specific industry.
 
 # 14. Lesson 11 — Source hierarchy
 
-For rapid company research, start with primary material.
-
-Preferred order:
-
-1. annual report / 10-K;
-2. quarterly report / 10-Q;
-3. investor presentation;
-4. earnings release;
-5. earnings call / transcript;
-6. company website;
-7. industry sources;
-8. reputable media;
-9. secondary aggregators;
-10. social media as idea-generation only.
+For rapid company research, learn to use the canonical [Research source hierarchy](../05_research/data_and_research_standards.md#3-source-hierarchy) and [primary-source requirements](../05_research/data_and_research_standards.md#4-primary-source-first). Practice selecting the relevant report for the claim and period. Social sources may generate questions, but must not settle material facts.
 
 ---
 
@@ -499,8 +490,9 @@ Ideally provide:
 
 ## Prompt
 
-> Build a value-chain map for this company and industry:
+> Build a combined value-chain and supply-chain map for this company and industry. Show the operational flow:
 > inputs → suppliers → production → distribution → end customer.
+> Explain where economic value is created and captured across that ecosystem.
 >
 > For each stage identify:
 > - critical players;
@@ -551,51 +543,13 @@ The investor must still answer:
 
 # 21. Deliverable — Rapid Business Map
 
-Create a one-page company map.
-
-## Company
-Name / ticker.
-
-## What it sells
-Plain-language explanation.
-
-## Customer
-Who pays and why?
-
-## Revenue model
-How does money enter the business?
-
-## Industry
-What market does it compete in?
-
-## Value chain
-Where does it sit?
-
-## Economics
-- revenue;
-- margin structure;
-- FCF;
-- debt;
-- capital intensity.
-
-## 3–5 critical KPIs
-Industry-specific.
-
-## Competitive advantage
-If any.
-
-## Main vulnerabilities
-Top 3.
-
-## Decision
-
-- PASS
-- WATCHLIST
-- DEEPER RESEARCH
+Create a concise, one-page summary using the canonical [Rapid Business Map](../03_templates/templates_and_rubrics.md#11-template-201--rapid-business-map). Explain the business, industry, operational chain, economics, competitive position, KPIs, and main risks. Capture unknowns and sources, then select a research disposition under [Methodology](../02_methodology/investment_methodology.md#stage-8--decide). Templates owns the fields.
 
 ---
 
 # 22. Graduation test
+
+Apply the [Rapid Business Map rubric](../03_templates/templates_and_rubrics.md#rapid-business-map-rubric), [Course 201 graduation rubric](../03_templates/templates_and_rubrics.md#201--understand-any-business), and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric).
 
 The student passes when they can explain a new company to another person without reading from a report and answer:
 

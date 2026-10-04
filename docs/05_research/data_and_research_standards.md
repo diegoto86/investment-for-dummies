@@ -5,6 +5,8 @@
 **Project:** Invest Smarter with AI  
 **Domain Authority:** Financial data, research sourcing, evidence quality, freshness, citations, and AI-assisted research standards.
 
+This is the sole operational authority for source hierarchy, primary-source requirements, citations, freshness, data verification, and AI research verification. The [Source of Truth](../00_project/source_of_truth.md) governs audience and scope; [Investment Methodology](../02_methodology/investment_methodology.md) governs analytical decisions. [Templates & Rubrics](../03_templates/templates_and_rubrics.md) implements these standards in forms.
+
 ---
 
 # 1. Purpose
@@ -44,6 +46,8 @@ Use the highest-quality source reasonably available.
 ## Tier 1 — Primary / Authoritative
 
 Preferred for material facts.
+
+Verify material investment facts and critical numbers against primary sources. If primary evidence is unavailable, identify the gap and preserve uncertainty rather than present the claim as verified.
 
 Examples:
 
@@ -100,7 +104,7 @@ Useful primarily for:
 - sentiment context;
 - locating alternative interpretations.
 
-Do not use as sole evidence for a material investment claim.
+Do not use as sole evidence for a material investment claim. Social sources may generate questions and context, but must not settle a material fact.
 
 ---
 
@@ -296,7 +300,7 @@ Historical valuation should be interpreted alongside:
 - business mix;
 - cyclicality.
 
-Do not imply that historical-average multiples are automatic price targets.
+Interpretation follows [Methodology's historical valuation principles](../02_methodology/investment_methodology.md#72-historical-valuation); historical-average multiples are not automatic price targets.
 
 ---
 
@@ -335,14 +339,14 @@ Pre-market and after-hours prices should be labeled explicitly.
 
 When using:
 
-- 50DMA;
-- 200DMA;
+- 50-day moving average (50DMA);
+- 200-day moving average (200DMA);
 - RSI;
 - support / resistance;
 
 record the date and price context.
 
-Technical signals should not be treated as fundamental evidence.
+Technical signals should not be treated as fundamental evidence. Their analytical role is governed by [Methodology](../02_methodology/investment_methodology.md#10-technical-context).
 
 ---
 
@@ -350,7 +354,7 @@ Technical signals should not be treated as fundamental evidence.
 
 When a stock moves materially, separate:
 
-## Fact
+## Confirmed Fact
 What happened?
 
 ## Management Explanation
@@ -450,6 +454,16 @@ For important outputs:
 5. ask the model to identify unsupported claims;
 6. rerun critical extraction when necessary.
 
+For material investment conclusions, also:
+
+- verify against primary sources and cite the source;
+- check source dates and freshness;
+- separate facts from inference and make uncertainty explicit;
+- cross-check contradictory evidence under section 22;
+- never rely on a single AI answer;
+- preserve source context and avoid invented precision;
+- keep final judgment human.
+
 ---
 
 # 25. Standard Evidence Labels
@@ -480,8 +494,9 @@ Not established.
 
 Research depth should match decision value.
 
+Stage budgets and ordinary monthly review time are governed by the [Source of Truth time constraint](../00_project/source_of_truth.md#22-time-constraint). The stages below describe evidence priorities, not independent time limits.
+
 ## Rapid Screen
-5–15 minutes.
 
 Use:
 
@@ -491,7 +506,6 @@ Use:
 - obvious red flags.
 
 ## Business Understanding
-30–60 minutes.
 
 Use:
 
@@ -502,7 +516,7 @@ Use:
 - key KPIs.
 
 ## Opportunity Analysis
-1–2 hours when justified.
+Use additional research time only when justified.
 
 Use:
 
@@ -529,7 +543,7 @@ Stop deeper research when:
 - balance-sheet risk is unacceptable;
 - thesis depends on too many unsupported assumptions.
 
-Time is an investment resource.
+Time is an investment resource. These stop rules apply the [Methodology research escalation rule](../02_methodology/investment_methodology.md#23-research-escalation-rule), with source quality governed here.
 
 ---
 

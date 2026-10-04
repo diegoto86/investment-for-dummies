@@ -3,7 +3,7 @@
 **Status:** Canonical  
 **Version:** 1.0  
 **Project:** Invest Smarter with AI  
-**Domain Authority:** Teaching method, lesson structure, slide design, exercises, examples, and assessment design.
+**Domain Authority:** Teaching method, lesson structure, slide design, exercises, and assessment delivery. Canonical rubric dimensions, scoring, and completion thresholds belong to [Templates & Rubrics](../03_templates/templates_and_rubrics.md).
 
 ---
 
@@ -19,7 +19,7 @@ It does not redefine:
 - research-source standards;
 - compliance rules.
 
-Those belong to their respective canonical documents.
+Those belong to their respective canonical documents: [Source of Truth](../00_project/source_of_truth.md), [Methodology](../02_methodology/investment_methodology.md), [curriculum](../01_curriculum/), [Research Standards](../05_research/data_and_research_standards.md), and [Compliance](../06_compliance/legal_risk_compliance.md).
 
 The teaching system is designed for busy professionals and entrepreneurs. Therefore, every lesson must maximize:
 
@@ -147,7 +147,7 @@ Use AI when it can materially reduce:
 - first-pass research;
 - repetitive monitoring.
 
-Every serious AI workflow should include:
+Use the canonical [AI Research Prompt Template](../03_templates/templates_and_rubrics.md#18-universal-ai-research-prompt-template) and [Research verification requirements](../05_research/data_and_research_standards.md#24-ai-hallucination-control). The following points guide teaching the workflow, not a separate prompt schema:
 
 - context;
 - source boundaries;
@@ -298,6 +298,8 @@ When possible:
 - avoid implying future returns;
 - avoid cherry-picked examples that make the framework appear infallible.
 
+When materially relevant, investment examples should address what could go wrong, downside, time horizon, concentration, and thesis invalidation. This rule guides how examples are taught; canonical investment-risk definitions follow [Methodology's Risk Framework](../02_methodology/investment_methodology.md#13-risk-framework).
+
 ---
 
 # 13. Use of Case Studies
@@ -345,7 +347,7 @@ Use standard financial English when it is the language used by markets and sourc
 
 Example:
 
-**Free Cash Flow (FCF)** — cash generated after operating needs and capital expenditure.
+**Free Cash Flow (FCF)** — explain cash generation intuitively, using the canonical [Research definition](../05_research/data_and_research_standards.md#11-free-cash-flow).
 
 Do not create awkward translations that make primary-source research harder.
 
@@ -410,33 +412,17 @@ Canonical examples:
 - Opportunity Card;
 - Portfolio Operating System.
 
-Deliverables should be reusable after the course.
+Curriculum specifies the required course artifact. [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns its fields and assessment criteria. Deliverables should be reusable after the course.
 
 The student should gradually build a personal investment operating system.
 
 ---
 
-# 19. Feedback Rubric
+# 19. Assessment and Feedback Delivery
 
-Evaluate deliverables on:
+Use the [Universal Evaluation Rubric](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric), relevant artifact rubric, and [course graduation rubric](../03_templates/templates_and_rubrics.md#23-graduation-rubric-by-course). Templates owns the dimensions, scoring, and completion threshold.
 
-## Clarity
-Can the student explain the decision?
-
-## Evidence
-Are material claims supported?
-
-## Relevance
-Did the student focus on what matters?
-
-## Risk Awareness
-Did they identify what can go wrong?
-
-## Uncertainty
-Did they distinguish known facts from assumptions?
-
-## Decision Quality
-Does the conclusion follow logically from the analysis?
+During feedback, ask the student to explain the decision, show supporting evidence, acknowledge uncertainty, and identify risk. Connect feedback to the applicable rubric and help the student resolve the material gaps.
 
 Do not grade based on whether the stock later went up or down.
 

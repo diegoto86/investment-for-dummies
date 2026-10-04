@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 000 — Investing Foundations
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Understand money, markets and what you are actually buying.**
@@ -460,14 +462,7 @@ What must be checked elsewhere?
 
 # 13. AI verification rules
 
-Before trusting an important answer:
-
-1. Check the date.
-2. Check whether the information is factual or inferred.
-3. Ask for primary sources when possible.
-4. Verify critical numbers.
-5. Separate education from investment recommendation.
-6. Do not let the model hide uncertainty.
+Apply [Research's AI verification requirements](../05_research/data_and_research_standards.md#24-ai-hallucination-control) before trusting important answers. Practice checking sources, dates, critical numbers, inference, and uncertainty. Keep educational explanation separate from investment recommendations.
 
 ---
 
@@ -486,46 +481,17 @@ Before trusting an important answer:
 
 # 15. Deliverable — Investor Profile
 
-The student creates a one-page profile containing:
+Risk capacity is the financial ability to absorb losses without compromising obligations, liquidity needs, or financial stability. Risk tolerance is the psychological and emotional ability to tolerate volatility and drawdowns. Being comfortable with losses does not mean you can afford them financially.
 
-## Financial objective
-What is the money for?
+Create a concise Investor Profile using the canonical [Template 000](../03_templates/templates_and_rubrics.md#6-template-000--investor-profile). Explain your financial objective, horizon, liquidity, capacity and tolerance for risk, capital, contributions, time budget, and preferred investment mode.
 
-## Time horizon
-When could the capital be needed?
-
-## Liquidity
-How much must remain accessible?
-
-## Risk capacity
-How much loss could be tolerated financially?
-
-## Risk tolerance
-How much volatility could be tolerated psychologically?
-
-## Capital available
-How much can be invested now?
-
-## Recurring contributions
-How much can be added regularly?
-
-## Time budget
-How much time per month can realistically be dedicated to investing?
-
-## Preferred investment mode
-
-- delegate;
-- index;
-- select;
-- combination.
-
-## First rule
-
-> What money will I explicitly NOT invest?
+Use the form to make explicit which money you will not invest. The template owns the fields; this course teaches how to reason about them.
 
 ---
 
 # 16. Graduation test
+
+Apply the [Investor Profile completion rubric](../03_templates/templates_and_rubrics.md#completion-rubric--investor-profile) and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric). The questions below help demonstrate the course outcomes.
 
 The student passes this level if they can clearly explain:
 

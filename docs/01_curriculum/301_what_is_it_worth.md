@@ -8,6 +8,8 @@ audience: "Busy professionals and entrepreneurs"
 
 # 301 — What Is It Worth?
 
+This course applies the audience, scope, and six-course architecture in the [Source of Truth](../00_project/source_of_truth.md). Analytical principles follow [Investment Methodology](../02_methodology/investment_methodology.md); sourcing and verification follow [Research Standards](../05_research/data_and_research_standards.md). [Templates & Rubrics](../03_templates/templates_and_rubrics.md) owns form schemas and completion thresholds.
+
 ## Course promise
 
 **Understand valuation, expectations and when price disconnects from value.**
@@ -38,7 +40,7 @@ By the end of the course, the student should be able to:
 - compare current valuation with history and peers;
 - build simple bear / base / bull scenarios;
 - understand market expectations;
-- estimate a reasonable fair-value range;
+- estimate a reasonable valuation range;
 - identify possible undervaluation;
 - distinguish undervaluation from deterioration;
 - use AI to normalize financial data and build scenarios without surrendering judgment.
@@ -230,7 +232,9 @@ Focus on the few drivers that move the outcome.
 
 ---
 
-# 10. Lesson 9 — Fair-value range
+# 10. Lesson 9 — Reasonable valuation range
+
+"Fair value" is shorthand for an uncertain estimate, not exact intrinsic value. Use [Methodology's valuation principles](../02_methodology/investment_methodology.md#25-we-prefer-ranges-over-false-precision).
 
 Do not pretend fair value is a single exact number.
 
@@ -252,18 +256,9 @@ Example structure:
 
 # 11. Lesson 10 — Margin of safety
 
-Margin of safety protects against:
+Use the canonical [Methodology definition](../02_methodology/investment_methodology.md#76-margin-of-safety): margin of safety is the valuation cushion between current price and a reasonable conservative valuation range, considered with uncertainty, downside risk, and the quality of assumptions.
 
-- estimation error;
-- business deterioration;
-- market volatility;
-- unexpected events.
-
-## Important
-
-The required margin depends on uncertainty.
-
-A predictable company may need less discount than a cyclical, leveraged or highly uncertain company.
+It is a buffer, not a guarantee. Greater uncertainty generally requires a larger cushion; no fixed percentage is prescribed. A predictable company may need less cushion than a cyclical, leveraged, or highly uncertain company.
 
 ---
 
@@ -398,46 +393,13 @@ The investor must decide:
 
 # 22. Deliverable — Valuation & Expectations Card
 
-## Company
-Ticker / price.
-
-## Current valuation
-Relevant multiples.
-
-## Historical context
-Range and caveats.
-
-## Peer context
-Relevant peers and differences.
-
-## Expectations
-What appears priced in?
-
-## Bear case
-Key assumptions.
-
-## Base case
-Key assumptions.
-
-## Bull case
-Key assumptions.
-
-## Fair-value range
-Reasonable range, not false precision.
-
-## Main valuation risk
-What could make this analysis wrong?
-
-## Decision
-
-- clearly unattractive;
-- watch;
-- potentially attractive;
-- requires more research.
+Produce the canonical [Valuation & Expectations Card](../03_templates/templates_and_rubrics.md#12-template-301--valuation--expectations-card). Explain the current valuation, comparable history and peers, market expectations, scenario assumptions, reasonable valuation range, margin of safety, and main valuation risk. Use Methodology's research dispositions for the conclusion. Templates owns the fields.
 
 ---
 
 # 23. Graduation test
+
+Apply the [Valuation rubric](../03_templates/templates_and_rubrics.md#valuation-rubric), [Course 301 graduation rubric](../03_templates/templates_and_rubrics.md#301--what-is-it-worth), and [canonical scoring threshold](../03_templates/templates_and_rubrics.md#5-universal-evaluation-rubric).
 
 The student should be able to explain:
 
