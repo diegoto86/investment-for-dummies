@@ -18,7 +18,7 @@
   64%,76%{left:calc(66.666667% - 3px)}
   80%,96%{left:calc(83.333333% - 3px)}
 }
-main section:not(.map-section){min-height:100svh;align-content:center}
+.marketing main section:not(.map-section){min-height:100svh;align-content:center}
 .hero,.about-hero{min-height:calc(100svh - 106px)!important;scroll-margin-top:106px}
 .final-cta,.program-intro,.placeholder{display:flex;flex-direction:column;justify-content:center;align-items:center}
 .placeholder{align-items:flex-start}

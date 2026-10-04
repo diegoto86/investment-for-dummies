@@ -1,0 +1,33 @@
+---
+import { site } from '../config/site';
+import Button from '../components/Button.astro';
+import '../styles/main.css';
+interface Props { title?: string; page?: 'home' | 'program' | 'about' | 'course' | 'lesson'; internal?: boolean }
+const { title = site.name, page = 'home', internal = false } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={site.description} />
+    <meta name="theme-color" content="#080808" />
+    <title>{title}</title>
+    {internal && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body class={page === 'lesson' ? 'learning' : 'marketing'}>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="header wrap">
+      <a class="brand" href="/" aria-label={`${site.name}, inicio`}><span class="brand-symbol" aria-hidden="true">↗</span><span>{site.name}</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="/programa" aria-current={page === 'program' ? 'page' : undefined}>Programa</a>
+        <a href="/#metodologia">Metodología</a>
+        <a href="/nosotros" aria-current={page === 'about' ? 'page' : undefined}>Nosotros</a>
+        <Button label="Ver programa" href="/programa" />
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="wrap footer"><a class="brand" href="/">{site.name}</a><p>Educación para decidir con criterio.</p><span>Contenido educativo. No es asesoramiento financiero.</span></footer>
+  </body>
+</html>

@@ -3,10 +3,35 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/serve.mjs",
-    "start": "node scripts/serve.mjs",
-    "lint": "node scripts/check.mjs",
-    "test": "node --test tests/unit/*.test.mjs",
-    "build": "node scripts/build.mjs"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "preview": "astro preview",
+    "lint": "astro check",
+    "typecheck": "astro check",
+    "test": "tsx --test tests/unit/*.test.ts",
+    "test:routes": "node --test tests/routes/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test:e2e:production": "playwright test --config playwright.production.config.ts",
+    "build": "astro build"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.0.0",
+    "astro": "^7.3.5",
+    "marked": "^18.0.14",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3"
+  },
+  "engines": {
+    "node": ">=22.19.0"
   }
 }

@@ -1,0 +1,5 @@
+---
+interface Props { label: string; href: string; secondary?: boolean }
+const { label, href, secondary = false } = Astro.props;
+---
+<a class:list={['button', { secondary }]} href={href}>{label}<span aria-hidden="true">↗</span></a>

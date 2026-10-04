@@ -1,0 +1,16 @@
+---
+import { isCourseAvailable, type Course } from '../../features/learning/domain';
+import { courseStatus } from '../../features/learning/catalog';
+interface Props { course: Course }
+const { course } = Astro.props;
+const active = isCourseAvailable(course);
+const Tag = active ? 'a' : 'div';
+---
+<li class:list={['journey-step', { active }]}>
+  <span class="path-dot" aria-hidden="true"></span>
+  <Tag href={active ? `/cursos/${course.id}` : undefined} class="course-node">
+    <div class="node-top"><span class="course-number">{course.id}</span><span class="status">{active && <i aria-hidden="true"></i>}{courseStatus(course)}</span></div>
+    <h2>{course.title}</h2><p>{course.description}</p>
+    {active && <span class="node-link">{course.journeyCta} <span aria-hidden="true">↗</span></span>}
+  </Tag>
+</li>

@@ -1,0 +1,7 @@
+---
+import { loadCatalog } from '../../features/learning/catalog';
+import CourseNode from './CourseNode.astro';
+const { courses } = await loadCatalog();
+---
+<ol class="journey" aria-label="Ruta de seis cursos">{courses.map(course => <CourseNode course={course} />)}</ol>
+<div class="journey-finish"><p class="eyebrow">LA META DEL RECORRIDO</p><h2>YOUR INVESTMENT SYSTEM</h2><p>Un proceso que puedes repetir.</p></div>

@@ -1,0 +1,12 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Button from '../components/Button.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import { site } from '../config/site';
+---
+<SiteLayout page="about" title={`Nosotros | ${site.name}`}>
+<section class="wrap about-hero"><div><Eyebrow text="NOSOTROS / EL PROPÓSITO" /><h1>Invertir empieza<br>por <em>entender.</em></h1><p class="lead">Creemos que entender qué haces con tu capital debería estar al alcance de cualquier persona dispuesta a aprender.</p><p class="section-copy">{site.name} es un proyecto de educación en inversión para profesionales con poco tiempo y ganas de tomar decisiones con criterio.</p><Button label="Conoce el programa" href="/programa" /></div><figure class="about-portrait"><img src="/images/nosotros.jpg" alt="Diego Melendez, Founder" width="800" height="800"><figcaption><span class="tiny-dot" aria-hidden="true"></span> Diego Melendez, Founder</figcaption></figure></section>
+<section class="surface"><div class="section wrap"><Eyebrow text="POR QUÉ EXISTIMOS" /><div class="split"><h2>Tu capital merece<br>decisiones que entiendas.</h2><div><p class="section-copy">Puedes conocer muy bien tu profesión y sentirte perdido al invertir. Entre noticias, métricas y opiniones, suele faltar algo más útil: un proceso para hacer las preguntas correctas.</p><p class="section-copy">Queremos ayudarte a entender los negocios, evaluar su valor y gestionar el riesgo. Con explicaciones claras, una ruta estructurada y AI para reducir el trabajo de investigación.</p></div></div></div></section>
+<section class="section wrap"><Eyebrow text="CÓMO ENTENDEMOS LA EDUCACIÓN" /><h2>Aprender para decidir.</h2><div class="problem-grid"><article><span class="index">01</span><h3>Claridad antes que complejidad</h3><p>Conceptos explicados con contexto, para que sepas qué mirar y por qué importa.</p></article><article><span class="index">02</span><h3>Un método que puedas mantener</h3><p>Un proceso de inversión compatible con tu trabajo, tus responsabilidades y tu tiempo.</p></article><article><span class="index">03</span><h3>Tecnología con juicio humano</h3><p>AI ayuda a investigar y contrastar. Verificar las fuentes y decidir sigue siendo tu responsabilidad.</p></article></div></section>
+<section class="final-cta wrap"><Eyebrow text="CONOCE NUESTRA RUTA" /><h2>Construye tu propia<br>forma de invertir.</h2><Button label="Explorar el programa" href="/programa" /></section>
+</SiteLayout>

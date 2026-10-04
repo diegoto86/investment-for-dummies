@@ -1,0 +1,15 @@
+{
+  "id": "000-fixture-quiz",
+  "kind": "single-choice",
+  "revision": 1,
+  "prompt": "¿Qué harías antes de sacar una conclusión a partir de una noticia?",
+  "options": [
+    { "id": "verify", "label": "Revisar la fuente y el contexto del dato." },
+    { "id": "follow", "label": "Seguir la primera opinión que encuentre." }
+  ],
+  "correctOptionId": "verify",
+  "feedback": {
+    "correct": "Correcto. La fuente y el contexto ayudan a interpretar la información.",
+    "incorrect": "Revisa la fuente y el contexto antes de adoptar una conclusión. Puedes intentarlo de nuevo."
+  }
+}

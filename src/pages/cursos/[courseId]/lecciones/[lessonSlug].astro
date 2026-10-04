@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import LessonExperience from '../../../../features/learning/LessonExperience';
+import { loadCatalog, lessonRoutes } from '../../../../features/learning/catalog';
+import type { LessonDocument } from '../../../../features/learning/domain';
+import { site } from '../../../../config/site';
+import '../../../../styles/learning.css';
+export async function getStaticPaths() {
+  const catalog = await loadCatalog();
+  // Internal content is available only in local development or an explicit preview build.
+  return import.meta.env.DEV || process.env.INCLUDE_INTERNAL_FIXTURES === 'true' ? lessonRoutes(catalog) : [];
+}
+interface Props { lesson: LessonDocument }
+const { lesson } = Astro.props;
+---
+<SiteLayout page="lesson" title={`${lesson.title} | ${site.name}`} internal>
+  <article class="lesson-reader wrap"><p class="eyebrow">PRUEBA INTERNA / NO ES CONTENIDO FINAL</p><h1>{lesson.title}</h1><p class="muted">Las respuestas de esta prueba no se guardan.</p><noscript><p>La lectura está disponible. Activa JavaScript para responder al quiz.</p></noscript><LessonExperience lesson={lesson} client:load /></article>
+</SiteLayout>

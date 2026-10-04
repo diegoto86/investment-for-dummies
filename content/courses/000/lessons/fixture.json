@@ -1,0 +1,16 @@
+{
+  "id": "000-fixture-lesson",
+  "moduleId": "000-fixture-module",
+  "slug": "fixture-interna",
+  "title": "Una decisión que puedes explicar",
+  "order": 0,
+  "revision": 1,
+  "visibility": "internal",
+  "blocks": [
+    { "id": "fixture-narrative", "kind": "narrative", "file": "fixture.md" },
+    { "id": "fixture-callout", "kind": "callout", "title": "Antes de decidir", "body": "Distingue lo que sabes de lo que todavía necesitas verificar." },
+    { "id": "fixture-example", "kind": "example", "title": "Ejemplo de trabajo", "body": "Una empresa anuncia que sus ventas han crecido. Antes de sacar una conclusión, identifica el periodo de comparación y revisa la fuente original. El dato aislado no explica el negocio." },
+    { "id": "fixture-quiz", "kind": "quiz", "quizId": "000-fixture-quiz" },
+    { "id": "fixture-sources", "kind": "sources", "title": "Fuente de referencia", "sources": [{ "title": "Investor.gov: Introduction to Investing", "url": "https://www.investor.gov/introduction-investing" }] }
+  ]
+}

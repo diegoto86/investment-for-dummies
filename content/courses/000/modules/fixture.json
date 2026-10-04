@@ -1,0 +1,7 @@
+{
+  "id": "000-fixture-module",
+  "courseId": "000",
+  "title": "Prueba interna de arquitectura",
+  "order": 0,
+  "visibility": "internal"
+}

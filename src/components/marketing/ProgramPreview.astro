@@ -1,0 +1,5 @@
+---
+import { loadCatalog } from '../../features/learning/catalog';
+const { courses } = await loadCatalog();
+---
+<ol class="program-preview">{courses.map(course => <li><span>{course.id}</span><h3>{course.title}</h3></li>)}</ol>

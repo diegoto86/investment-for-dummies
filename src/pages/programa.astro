@@ -1,0 +1,12 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Button from '../components/Button.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import { site } from '../config/site';
+import CourseJourney from '../components/marketing/CourseJourney.astro';
+---
+<SiteLayout page="program" title={`Programa | ${site.name}`}>
+<section class="program-intro wrap"><Eyebrow text="EL PROGRAMA / 000 → 501" /><h1>Tu ruta para convertir<br>capital en <em>decisiones.</em></h1><p class="lead">Seis etapas. Desde entender qué significa invertir hasta gestionar una cartera con criterio.</p><p class="muted">No necesitas dominarlo todo de golpe. Cada etapa construye sobre la anterior.</p><div class="map-legend"><span><i class="tiny-dot"></i> Punto de partida</span><span>06 etapas conectadas</span></div></section>
+<section class="wrap map-section" aria-label="Mapa del programa"><CourseJourney /></section>
+<section class="section wrap outcome"><Eyebrow text="EL RESULTADO / UN PROCESO PROPIO" /><h2>Al terminar, tendrás un sistema.</h2><div class="transformation"><div><span>ANTES</span><p>¿Qué debería comprar?</p></div><div><span>DESPUÉS</span><p>¿Entiendo qué estoy comprando, cuánto vale, qué puede salir mal y por qué merece mi capital?</p></div></div></section><section class="final-cta wrap"><h2>El criterio empieza<br>por los fundamentos.</h2><Button label="Comenzar por 000 · Investing Foundations" href="/cursos/000" /><p class="muted">Curso en desarrollo.</p></section>
+</SiteLayout>

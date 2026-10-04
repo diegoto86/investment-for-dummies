@@ -17,3 +17,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 dist/
+node_modules/
+.astro/
+test-results/
+playwright-report/

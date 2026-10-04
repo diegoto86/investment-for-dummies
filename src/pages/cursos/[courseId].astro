@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Button from '../../components/Button.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import { loadCatalog, courseStatus } from '../../features/learning/catalog';
+import { isCourseAvailable, type Course } from '../../features/learning/domain';
+import { site } from '../../config/site';
+export async function getStaticPaths() {
+  const { courses } = await loadCatalog();
+  // Upcoming courses remain metadata-only, matching the existing public journey.
+  return courses.filter(isCourseAvailable).map(course => ({ params: { courseId: course.id }, props: { course } }));
+}
+interface Props { course: Course }
+const { course } = Astro.props;
+---
+<SiteLayout page="course" title={`${course.title} | ${site.name}`}>
+  <section class="wrap placeholder"><Eyebrow text={`CURSO ${course.id} / ${courseStatus(course).toUpperCase()}`} /><h1>{course.title}</h1><p class="lead">{course.description}</p><div class="placeholder-note"><span class="tiny-dot"></span><p>Estamos preparando esta primera etapa. El contenido del curso todavía no está disponible.</p></div><Button label="Volver al programa" href="/programa" secondary /></section>
+</SiteLayout>
