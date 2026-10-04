@@ -1,0 +1,12 @@
+{
+  "name": "invest-smarter-visual-mvp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "lint": "node scripts/check.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
