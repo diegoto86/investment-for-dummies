@@ -6,7 +6,7 @@ Run `npm run dev` and open http://localhost:3000. The preview builds once at sta
 
 Run `npm run lint`, `npm test`, and `npm run build` to validate and generate `dist/`. The lint command checks JavaScript syntax with Node. There is no TypeScript configuration.
 
-Routes: `/`, `/programa`, `/nosotros`, `/cursos/000`. The course route is an explicit development placeholder, without lesson content or enrollment. The Certified milestone is a visual destination; certificate issuance is not implemented. The provided portrait is stored at `public/images/nosotros.jpg` and copied into the build.
+Routes: `/`, `/programa`, `/nosotros`, `/cursos/000`. The course route is an explicit development placeholder, without lesson content or enrollment. The journey ends with YOUR INVESTMENT SYSTEM, a visual learner outcome. The provided portrait is stored at `public/images/nosotros.jpg` and copied into the build.
 
 Brand settings live in `src/config/site.mjs`. The six course records live in `src/features/courses/courses.mjs`; titles follow `docs/01_curriculum/` and Spanish descriptions are visual MVP presentation copy. Update that one data file if canonical titles change.
 
